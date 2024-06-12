@@ -1,0 +1,406 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.navbar{
+    position: fixed;
+    width: 1341px;
+    background-color: #ffffff;
+    z-index: 100;
+}
+.contact{
+    font-size: large;
+    font-weight: bold;
+    gap: 9px;
+    display: flex;
+    padding: 8px;
+    padding-left: 50px;
+    width: 98%;
+    height: auto;
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+}
+.contact a{
+    color: white;
+}
+.nav-bar .call1{
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(255, 213, 0);
+    width: 200px;
+    height: 25px;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+.cll{
+    padding-left: 800px;
+}
+.tags{
+    display: flex;
+    gap: 24px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tags .tags2{
+    display: flex;
+    gap: 9px;
+}
+.tags2 a{
+    text-decoration: none;
+    padding-top: 19px;
+    color: #000000;
+}
+.tags2 a:hover{
+    text-align: center;
+    padding-top: 19px;
+    color: #000000;
+    background-color: rgb(255, 213, 0);
+}
+.main_img_text{
+    position: absolute;
+    top: 330px;
+    left: 190px;
+    right: 30px;
+}
+.main_img_text .p1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 140px;
+    color: #ffffff;
+}
+.main_img_text .p2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    justify-self: start;
+    color: #ffffff;
+}
+.india{
+    display: flex;
+    gap: 30px;
+    margin-left: 70px;
+}
+.india img{
+    border-radius: 7px;
+}
+.national{
+    display: flex;
+    gap: 30px;
+    margin-left: 70px;
+}
+.national img{
+    border-radius: 7px;
+}
+.in_india{
+    position: absolute;
+    top: 1100px;
+    left: 230px;
+    right: 30px;
+    color: white;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.in_international{
+    position: absolute;
+    top: 1100px;
+    left: 970px;
+    right: 30px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.in_honey{
+    position: absolute;
+    top: 1500px;
+    left: 110px;
+    right: 30px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.in_europe{
+    position: absolute;
+    top: 1500px;
+    left: 530px;
+    right: 30px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.in_education{
+    position: absolute;
+    top: 1500px;
+    left: 900px;
+    right: 30px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.article img{
+    filter: grayscale(50%);
+}
+.article :hover{
+    filter: grayscale(1%);
+    filter: brightness(100%);
+}
+.package{
+    padding-left:70px ;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-transform: capitalize;
+
+}
+.in_india_{
+    background-color: rgb(255, 213, 0);
+    padding: 5px;
+    position: absolute;
+    top: 1150px;
+    left: 270px;
+    right: 30px;
+}
+.in_india1_ :hover{
+    background-color: grey;
+    padding: 5px;
+    position: absolute;
+    top: 1150px;
+    left: 270px;
+    right: 30px;
+
+}
+.in_india2_ :hover{
+    background-color: grey;
+    padding: 5px;
+    position: absolute;
+    top: 1150px;
+    left: 270px;
+    right: 30px;
+
+}
+.in_international_{
+    background-color: rgb(255, 213, 0);
+    padding: 5px;
+    position: absolute;
+    top: 1170px;
+    left: 970px;
+    right: 30px;
+}
+.in_honey_{
+    background-color: rgb(255, 213, 0);
+    position: absolute;
+    top: 1550px;
+    left: 200px;
+    right: 30px;
+}
+.in_europe_{
+    background-color: rgb(255, 213, 0);
+    padding: 5px;
+    position: absolute;
+    top: 1550px;
+    left: 570px;
+    right: 30px;
+}
+.in_education_{
+    background-color: rgb(255, 213, 0);
+    position: absolute;
+    align-items: center;
+    top: 1550px;
+    left: 970px;
+    right: 30px;
+}
+.text_img ._box{
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform:capitalize;
+    width: 130px;
+}
+.content1_txs{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 340px;
+    height: 310px;
+    box-shadow: 10px 10px rgb(82, 78, 78);
+    background-color: rgba(239, 234, 227, 0.565);
+    border-radius: 7px;
+    padding: 17px;
+}
+.content2_txs{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 340px;
+    height: 310px;
+    box-shadow: 10px 10px rgb(82, 78, 78);
+    background-color: rgba(239, 234, 227, 0.565);
+    border-radius: 7px;
+    padding: 17px;
+
+}
+.content3_txs{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 340px;
+    height: 310px;
+    box-shadow: 10px 10px rgb(95, 93, 93);
+    background-color: rgba(239, 234, 227, 0.565);
+    border-radius: 7px;
+    padding: 17px;
+
+}
+.content1{
+    display: flex;
+    margin: 110px;
+    gap: 70px;
+    align-items: center;
+    justify-self: end;
+    font-family: cursive;
+}
+.rough{
+    margin: 90px;
+    letter-spacing: 2px;word-spacing: 2px;line-height: 1.8;
+}
+.rough h2{
+    font-size: xx-large;
+}
+.images_slide1{
+    display: flex;
+    padding-left: 50px;
+}
+.images_slide2{
+    padding-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.images_slide2 sslides{
+    display: flex;
+    padding-left: 50px;
+}
+.in_india1_{
+    background-color: rgb(255, 213, 0);
+    padding: 5px;
+    width: 170px;
+    position: absolute;
+    top: 5450px;
+    left: 600px;
+    right: 30px;
+    font-family:cursive;
+    text-transform: capitalize;
+}
+.images_slide3{
+    display: grid;
+    padding-top: 40px;
+    padding-left: 90px;
+    gap: 10px;
+    font-size: large;
+    text-transform: capitalize;
+}
+.in_india2_{
+    background-color: rgb(255, 213, 0);
+    padding: 5px;
+    width: 110px;
+    position: absolute;
+    top: 6625px;
+    left: 600px;
+    right: 30px;
+    font-family:cursive;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+._box :hover{
+        padding-left: 300px;color: #000000;text-decoration: solid rgb(255, 213, 0);background-color: rgb(255, 213, 0);width: 50%;height: 7%; border-radius: 9px;
+    
+
+}
+.article img:hover{
+    transform: scale(1.1);
+}
+.sslides1 img:hover{
+    transform: scale(1.1);
+}
+.sslides img:hover{
+    transform: scale(1.1);
+}.sslides img:hover{
+    transform: scale(1.1);
+}
+.slide4{
+    padding: 90px;
+    padding-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;text-transform: capitalize;
+}
+.foot{
+    display: flex;
+    background-color: rgb(40, 39, 39);
+    color: beige;
+    text-transform: capitalize;
+    padding-left: 150px;
+    gap: 110px;
+    line-height: 1.9;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.crop{
+    width: 250px;
+    height: auto;
+    border-bottom:2px solid wheat ;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+}
+.sec3 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.sec3 a:hover{
+    text-decoration:underline;
+}
+.crop1{
+    width: 250px;
+    height: auto;
+    border-bottom:2px solid wheat ;
+}.crop2{
+    width: 250px;
+    height: auto;
+    border-bottom:2px solid wheat ;
+}
+.foot1{
+    display: flex;
+    background-color: rgb(40, 39, 39);
+    color: beige;
+    text-transform: capitalize;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    gap: 110px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footcall{
+    width: 250px;
+    height: 20px;
+    height: auto;
+    border-left:4px solid wheat ;
+    padding-left: 50px;
+}
+.footmail{
+    width: 250px;
+    height: 20px;
+    height: auto;
+    border-left:4px solid wheat ;
+    padding-left: 50px;
+}
+.footfollows{
+    width: 250px;
+    height: 20px;
+    height: auto;
+    border-left:4px solid wheat ;
+    padding-left: 50px;
+}
+.copy{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    gap: 200px;
+}

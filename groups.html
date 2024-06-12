@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4667f8d1e1.js" crossorigin="anonymous"></script>
+
+    <title>packages</title>
+    <style>
+    body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    }
+    .navbar{
+        position: fixed;
+        width: 1350px;
+        padding-top: 5px;
+        background-color: #ffffff;z-index: 100;
+    }
+    .nav-bar .call1{
+        font-weight: bold;
+        background-color: rgb(255, 213, 0);
+        width: 250px;
+        height: 25px;
+        letter-spacing: 5px;
+        padding-right: 5px;
+    }
+    .cll{
+        padding-left: 800px;
+    }
+    .tags{
+        background-color: #ffffff;
+        display: flex;
+        gap: 24px;
+        padding-left: 30px;padding-right: 90px;
+    }
+    .tags .tags2{
+        display: flex;
+        gap: 9px;
+    }
+    .tags2 a{
+        text-decoration: none;
+        padding-top: 20px;
+        color: #000000;
+    }
+    .tags2 a:hover{
+        text-align: center;
+        padding-top: 19px;
+        color: #000000;
+        background-color: rgb(255, 213, 0);
+    }
+
+    .content1{
+        display: flex;
+        gap: 30px;
+        padding-top: 40px;
+        padding-left: 90px;
+        text-transform: capitalize;
+    }
+    .content1 img{
+        width: 237px;
+        height: 382px;
+        border-radius: 7px;
+    }
+    .content1 .text1{
+        width: 370px;
+        height: 428px;
+        font-size: 14px;
+    }
+    .text_in{
+        width:59px ;height: 27px;
+        border-bottom: red solid 2px;
+    }
+    .backimage_txt{
+        display: flex;
+        gap: 50px;
+        padding-left: 50px;
+        height: 50px;
+        border-bottom: 1px solid black;
+        text-transform: capitalize;
+    }
+    .menu1 {
+        display: flex;
+        gap: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .menu1 img{
+        border-radius: 17px;
+    }
+    .menu2{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 15px;
+        padding-left: 70px;padding-right: 50px;
+    }
+    .menu2 img{
+        border-radius: 15px;
+    }
+    .menu3{
+        display: flex;gap: 15px;padding-left: 70px;padding-right: 50px;
+
+    }.menu3 img{
+        border-radius: 15px;
+    }
+    .title{
+        padding-left: 200px;font-weight:bolder;text-transform: uppercase;color: rgb(255, 213, 0);
+    }
+    .title h1:hover{
+        padding-left: 300px;color: #000000;text-decoration: solid rgb(255, 213, 0);background-color: rgb(255, 213, 0);width: 50%;height: 7%; border-radius: 9px;
+    }
+    .foot{
+        display: flex;
+        background-color: rgb(40, 39, 39);
+        color: beige;
+        text-transform: capitalize;
+        padding-left: 150px;
+        gap: 110px;
+        line-height: 1.9;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    .crop{
+        width: 250px;
+        height: auto;
+        border-bottom:2px solid wheat ;
+    }
+    .sec3{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3 a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .sec3 a:hover{
+        text-decoration:underline;
+    }
+    .crop1{
+        width: 250px;
+        height: auto;
+        border-bottom:2px solid wheat ;
+    }.crop2{
+        width: 250px;
+        height: auto;
+        border-bottom:2px solid wheat ;
+    }
+    .foot1{
+        display: flex;
+        background-color: rgb(40, 39, 39);
+        color: beige;
+        text-transform: capitalize;
+        padding-left: 150px;
+        padding-bottom: 50px;
+        gap: 110px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .footcall{
+        width: 250px;
+        height: 20px;
+        height: auto;
+        border-left:4px solid wheat ;
+        padding-left: 50px;
+    }
+    .footmail{
+        width: 250px;
+        height: 20px;
+        height: auto;
+        border-left:4px solid wheat ;
+        padding-left: 50px;
+    }
+    .footfollows{
+        width: 250px;
+        height: 20px;
+        height: auto;
+        border-left:4px solid wheat ;
+        padding-left: 50px;
+    }
+    .copy{
+        padding-top: 20px;
+        padding-left: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        gap: 200px;
+    }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <nav class="nav-bar tags">
+            <div class="tags1">
+                <img src="/image/GT-Holidays-Logo.jpg" alt="" width="200px">
+            </div>
+            <div class="tags2">
+                <a href="index.html">HOME</a>
+                <a href="#foot_footes">COMPANY</a>
+                <a href="groups.html">GROUP TOURS</a>
+                <a href="">PACKAGES</a>
+                <a href="honeymoon.html">HONEY MOON</a>
+                <a href="crodial.html">CRUISES</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="tags3">
+                <p class="_box call1">+91 9940882200</p>
+            </div>
+        </nav>
+    </header>
+    <div class="backimage">
+        <img src="image/backstyle.jpg" alt="" width="1341px" height="250px">
+        <div class="backimage_txt">
+            <p>home</p><p>packages</p>
+        </div>
+        <div class="content1">
+            <div class="text1">
+                <h2>finding the best packages</h2>
+                <div class="text_in" >
+                    <h2>india</h2>
+                </div>
+                <p>discovery of your ideal experience </p>
+                <p>The honeymoon is a happy, relaxing, exciting, and peaceful period in the life of any couple. It’s the time you spend getting to know each other and exploring terrains that have yet been unexplored. Picking the right destination for your honeymoon, therefore, is crucial. There are plenty of options you will come across when looking for the best honeymoon packages in India, and tourists have a lot to choose from our international honeymoon trip packages at GT Holidays as well.</p>
+            </div>
+            <div class="text_img1">
+                <img src="img/Chennai/sonika-agarwal-SVIs4npZ2Ag-unsplash.jpg" alt="">
+            </div>
+            <div class="text_img1">
+                <img src="/image/Goa-2 honey.jpg" alt="">
+            </div>
+            <div class="text_img1">
+                <img src="/image/Kerala-2 honey.jpg" alt="">
+            </div>
+        </div>
+    </div> <div class="title"><h1>our packages....!</h1></div>
+    <div class="menu2">           
+        <div class="col1">
+            <img src="image/123.jpg" alt="" width="100%" >
+            <img src="img/agara/mustafa-fatemi-CayhrVF7YRI-unsplash.jpg" alt="" width="100%">
+            <img src="image/1234.jpg" alt="" width="100%">
+            <img src="image/12345.jpg" alt="" width="100%">
+        </div>
+        <div class="col2">
+            <img src="image/1234567.jpg" alt="" width="100%">
+            <img src="img/varnasi/ashish-singh-j7EDjKr6U0c-unsplash (1).jpg" alt="" width="100%">
+
+        </div>
+        <div class="col4">
+            <img src="img/udhipur/bhushan-sadani-sHlYyhfD5Hc-unsplash.jpg" alt="" width="100%">
+            <img src="img/udhipur/derek-story-vl69QxcojR0-unsplash.jpg" alt="" width="100%">
+        </div>
+        <div class="coll3">
+            <img src="img/ladakah/klara-avsenik-Svxz1d3f8Eg-unsplash.jpg" alt="" width="100%">
+            <img src="img/goa/alexey-turenkov-bWJiSZjIgTM-unsplash.jpg" alt="" width="100%">
+        </div>
+        <div class="col1">
+            <img src="image/123456.jpg" alt="" width="100%">
+            <img src="img/udhipur/annie-spratt-w3CyGs-keEM-unsplash.jpg" alt="" width="100%" >
+        </div>
+        <div class="col1">
+            <img src="img/goa/martin-jernberg-nE2gf1scItI-unsplash.jpg" alt=""width="100%" >
+            <img src="img/goa/raja-sen-FYos6AbcDsY-unsplash.jpg" alt=""width="100%" >
+            <img src="img/goa/sarang-pande-wbp5ho6r-ko-unsplash.jpg" alt=""width="100%" >
+        </div>
+    </div>
+
+    <div class="menu1" id="packs">
+        <div class="col1">
+            <img src="img/agara/shreshth-gupta-7-RDFPniALI-unsplash.jpg" alt="" width="100%" class="img-rounded">
+            <img src="img/goa/shubham-amane-k_sFK6fVHcM-unsplash.jpg" alt="" width="100%">
+            <img src="img/ladakah/upbeat-nomad-X_QShGXw6UA-unsplash.jpg" alt="" width="100%">
+        </div>
+        <div class="col2">
+            <img src="img/varnasi/srivatsan-balaji-YpX8_xuV1zE-unsplash.jpg" alt="" width="100%">
+            <img src="img/Chennai/ragu-clicks-D1-echCD6io-unsplash.jpg" alt="" width="100%">
+            <img src="img/jaipur/raghu-nayyar-EpAq2EE-shg-unsplash.jpg" alt="" width="100%">
+
+        </div>
+        <div class="col4">
+            <img src="img/himachal P/v-srinivasan-45Cl1hMmmb0-unsplash.jpg" alt="" width="100%">
+            <img src="img/himachal P/darshan-chudasama-v1oGBUnXVDs-unsplash.jpg" alt="" width="100%">
+            <img src="img/varnasi/jk-gJhev0YgUcE-unsplash.jpg" alt=""width="100%">
+        </div>
+        <div class="coll3">
+            <img src="img/ladakah/klara-avsenik-Svxz1d3f8Eg-unsplash.jpg" alt="" width="100%">
+            <img src="img/rajasthan/gaurav-sehara-Mn-3P_jMAbU-unsplash.jpg" alt="" width="100%">
+            <img src="img/udhipur/nilotpal-kalita-pBgHE7RYQAg-unsplash.jpg" alt="" width="100%">
+        </div>
+        <div class="col1">
+            <img src="img/kashmir/hadwt-eI6haRh9u1Q-unsplash.jpg" alt=""width="100%">
+            <img src="img/agara/su-san-lee-qCKSpvJfNtU-unsplash.jpg" alt="" width="100%" >
+            <img src="img/himachal P/rohan-gupta-wgULiLZt9co-unsplash.jpg" alt="" width="100%">
+        </div>
+    </div>
+    <div class="menu3" id="packs">
+        <div class="col1">
+            <img src="img/Chennai/ragu-clicks-D1-echCD6io-unsplash.jpg" alt="" width="100%">
+            <img src="img/Chennai/prabhu-chandian-2bcezyYADyE-unsplash.jpg" alt="" width="100%">
+            <img src="img/goa/alexey-turenkov-bWJiSZjIgTM-unsplash.jpg" alt="" width="100%">
+            <img src="img/ladakah/vamshi-vangapally-fH-BSvYeX5g-unsplash.jpg" alt="" width="100%">
+        </div>        <div class="col1">
+            <img src="img/varnasi/srivatsan-balaji-YpX8_xuV1zE-unsplash.jpg" alt="" width="100%">
+            <img src="img/Chennai/sonika-agarwal-SVIs4npZ2Ag-unsplash.jpg" alt="" width="100%">
+            <img src="img/jaipur/sneha-chandrashekar-R76cTqlsoRY-unsplash.jpg" alt="" width="100%">
+            </div><div class="col1">
+                <img src="img/himachal P/anmol-rattan-sSBkjLB3-_g-unsplash.jpg" alt="" width="100%">
+            <img src="img/varnasi/jannes-jacobs-NfsB3jPVlcM-unsplash.jpg" alt=""width="100%">
+            <img src="img/ladakah/shubham-sharma-_SDpSWfZsBQ-unsplash (1).jpg" alt="" width="100%">
+            </div><div class="col1">
+                <img src="img/rajasthan/meric-dagli-ZgbzOZW9U3o-unsplash.jpg" alt="" width="100%">
+            <img src="img/udhipur/nina-luong-IOwItPmnkyU-unsplash.jpg" alt="" width="100%">
+            <img src="img/kashmir/jannes-jacobs-KRIGA7iUN08-unsplash.jpg" alt=""width="100%">
+            </div><div class="col1">
+                <img src="img/Chennai/mamallapuram.jpg" alt="" width="100%">
+                <img src="img/Chennai/mamallapuram-shore-temple-1653384258_d88d3d01bc1bbf48db9b.webp" alt="" width="100%">
+
+                <img src="img/agara/jovyn-chamb-iWMfiInivp4-unsplash.jpg" alt="" width="100%" >
+            <img src="img/himachal P/nipun-chandra-surnilla-l2ptZLagfx0-unsplash.jpg" alt="" width="100%">
+    </div></div>
+    <footer id="foot_footes">
+        <footer class="foot">
+            <div class="sec1">
+                <div class="crop">
+                    <h2>corporate office</h2>
+                </div>
+                <p>GT Holidays Pvt LTD,</p>
+                <p>Novel Tech Park,</p>    
+                <p>Opposite to 1 MG Mall,</p>   
+                <p>MG Road, Bangalore – 560042</p>    
+                <p>Karnataka, India.</p>
+            </div>
+            <div class="sec2">
+                <div class="crop1">
+                    <h2>head office</h2>
+                </div>            <p>GT Holidays Pvt LTD,</p>
+                <p>No.1, Gemini Parsn,</p>    
+                <p>Kodambakkam High Road</p>   
+                <p>Nungambakkam, Chennai – 600006</p>    
+                <p>tamilnadu, India.</p>
+            </div>
+            <div class="sec3">
+                <div class="crop2">
+                    <h2>our branches</h2>
+                </div>            <a href="">hyderbad</a>
+                <a href="">banglore</a>
+                <a href=""></a>
+                <a href="">chennai</a>
+                <a href="">coimbatore</a>
+                <a href="">erode</a>
+                <a href="">trichy</a>
+                <a href="">madurai</a>
+            </div>
+        </footer>
+        <footer class="foot1">
+            <div class="footcall">
+                <p>call us</p>
+                <h2>+91 9940882200</h2>
+            </div>
+            <div class="footmail">
+                <p>email us</p>
+                <h2>mail@gtholidays.in</h2>
+            </div>
+            <div class="footfollows">
+                <p>follows us</p>
+                <i class="fa-brands fa-facebook"  style="color: rgb(255, 213, 0);font-size: 30px;"></i>
+                <i class="fa-brands fa-instagram" style="color: rgb(255, 213, 0);font-size: 30px;"></i>
+                <i class="fa-brands fa-linkedin"  style="color: rgb(255, 213, 0);font-size: 30px;"></i>
+                <i class="fa-brands fa-google" style="color: rgb(255, 213, 0);font-size: 30px;"></i>
+            </div>
+        </footer>
+        <div class="copy">
+            <p>Copyright © 2024 by GT Holidays Pvt Ltd. All Rights Reserved.</p>
+            <p>Privacy Policy | Terms & Conditions | Cancellation & Refund Policy</p>
+        </div>
+    
+    </footer>
+</body>
+</html>
